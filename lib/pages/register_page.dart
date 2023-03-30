@@ -121,8 +121,8 @@ class _RegisterPageState extends State<RegisterPage> {
                           height: 20.0,
                         ),
                         CommonTextFieldWidget(
-                          label: "Telefono",
-                          hintText: "Tu Telefono",
+                          label: "Teléfono",
+                          hintText: "Tu Teléfono",
                           type: InputType.phone,
                           controller: _telefonoController,
                         ),
@@ -130,8 +130,8 @@ class _RegisterPageState extends State<RegisterPage> {
                           height: 20.0,
                         ),
                         CommonTextFieldWidget(
-                          label: "Direccion",
-                          hintText: "Tu Direccion",
+                          label: "Dirección",
+                          hintText: "Tu Dirección",
                           type: InputType.text,
                           controller: _direccionController,
                         ),
@@ -145,7 +145,7 @@ class _RegisterPageState extends State<RegisterPage> {
                           height: 30.0,
                         ),
                         CommonButtonWidget(
-                          text: "Registrarse",
+                          text: "Crear cuenta",
                           onPressed: () {
                             register();
                           },

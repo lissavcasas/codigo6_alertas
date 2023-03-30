@@ -101,7 +101,7 @@ class ApiService {
       });
     } on Error catch (e) {
       return Future.error({
-        "message": "Hubo un inconveniente por favor intentelo nuevamente $e"
+        "message": "Hubo un inconveniente por favor inténtelo nuevamente $e"
       });
     }
   }
